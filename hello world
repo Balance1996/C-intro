@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<cs50.h>
+
+int main(void)
+{
+    string intro = get_string("What is your name?\n");
+    printf("Hello,%s",intro);
+    return 0;
+}
+
